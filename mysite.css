@@ -1,0 +1,68 @@
+/* ハンバーガーメニューのスタイル */
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* バーのスタイル */
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+/* メニューの初期設定（非表示） */
+.menu {
+  display: none;
+}
+
+/* メニューを表示するためのスタイル */
+.menu.show {
+  display: block;
+  /* 他のスタイルを追加してメニューの見た目を調整 */
+}
+div#date-time {
+  background-color: aliceblue;
+}
+div.hamburger-menu{
+  background-color: aliceblue;
+}
+
+body {
+  background-image: url("test.png");
+}
+header{
+  background-color: aliceblue;
+  text-align: center;
+}
+main{
+  background-color: aliceblue;
+}
+ol {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+
+
+.btn img {
+    
+    width: 500px; /* 画像の幅 */
+    height: 500px; /* 画像の高さ */
+    transform: scale(3); /* 2倍に拡大する例 */
+    }
+  
+.btn img {
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    width: 10%; /* 親要素に合わせるため100% */
+    height: 10%; /* 親要素に合わせるため100% */      
+    }
+    
